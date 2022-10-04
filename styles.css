@@ -1,0 +1,143 @@
+:root{
+    --green-nerea: #04706E;
+    --light-green-nerea: #E1FFBD;
+    --font-Montserrat: 'Montserrat', sans-serif;
+    --font-John-mayer: 'John Mayer';
+
+    }
+
+*{
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+    
+html{
+    font-size: 62.5%;
+    font-family: var(--font-Montserrat);
+    background-color: #FAFAFA;
+    color: #4E5150;
+}
+/* Icons */
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+.inactive{
+    display: none;
+}
+
+.main-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 12px;
+
+}
+.checkout-title{
+    width: 100%;
+    height: auto;
+    margin-top: 32px;
+    margin-bottom: 21px;
+    font-family: var(--font-Montserrat);
+    font-family: Montserrat;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 2.9rem;
+    letter-spacing: 0em;   
+}
+.main-card-container{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: #F2F2F2;
+    border-radius: 12px;
+}
+.product-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.image-container{
+    width: 120px;
+    height: 120px;
+    background-image: url(./assets/recoleta.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 12px;
+    margin-bottom: 28px;
+
+}
+.image-container1{
+    width: 120px;
+    height: 120px;
+    background-image: url(./assets/recoleta2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 12px;
+    margin-bottom: 88px;
+}
+.body-container{
+    margin-left: 12px;
+}
+.product-title{
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    letter-spacing: 0em;
+}
+.price-container{
+    display: flex;
+    flex-direction: row; 
+}
+.price-container .price{
+    font-size: 0.9;
+    font-weight: 600;
+    line-height: 17px;
+    color: orange;
+}
+.price-container .discount{
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 17px;
+    margin-left: 12px;
+    text-decoration: line-through;
+    
+}
+.items-container{
+    width: 100px;
+    height: 30px;
+    margin-top: 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: solid 1px black;
+    border-radius: 8px;
+    padding: 4px;
+}
+.remove-icon{
+    font-size: 1.5rem;
+    background-color: #E0E0E0;
+    color: #828282;
+    border-radius: 3px;
+}
+.amount{
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 20px;
+
+}
+.add-icon{
+    font-size: 1.5rem;
+    background-color: #E0E0E0;
+    color: #828282;
+    border-radius: 3px;
+}
