@@ -22,7 +22,7 @@
                            <h3 class="product-title">"Mausoleum"</h3>
                            <div class="price-container">
                                <p class="price">ETH 0.01</p>
-                               <p class="discount">ETH 0.05</p>
+                               <p class="discount">ETH 0.2</p>
                            </div>
                            <div class="items-container">
                             <span class="material-symbols-outlined remove-icon">
@@ -42,7 +42,7 @@
                            <h3 class="product-title">"Eternal shinning"</h3>
                            <div class="price-container">
                                <p class="price">ETH 0.1</p>
-                               <p class="discount">ETH 0.05</p>
+                               <p class="discount">ETH 0.2</p>
                            </div>
                            <div class="items-container">
                             <span class="material-symbols-outlined remove-icon">
@@ -56,28 +56,29 @@
                        </div>
                    </article> 
                    <hr class="rounded">
-                   <div>
-                       <p>Shipping</p>
-                       <p>$19</p>
+                   <div class="shipping-container">
+                       <p class="shipping-body">Shipping</p>
+                       <p class="shipping-price">ETH 0.01</p>
                    </div>
                    <hr class="rounded">
-                   <div>
-                       <p>Total</p>
-                       <p>$19</p>
+                   <div class="total-container">
+                       <p class="total-body">Total</p>
+                       <p class="total-price">ETH 0.01</p>
                    </div>
                 </section>
 
-                <section>
+                <!-- Formulario -->
+                <section class="form">
                 <form action="#" method="post">
-                    <h2>Contact Information</h2>
+                    <h2 class="form-contact-title">Contact Information</h2>
                     <ul>
                         <li>
-                            <label for="email">E-mail</label>
-                            <input type="email" id="email" name="user-mail">
+                            <label for="email" class="email-title">E-mail</label>
+                            <input type="email" id="email" name="user-mail" class="email-container">
                         </li>
                         <li>
-                            <label for="phone">Phone</label>
-                            <input type="number" id="phone" name="user-phone">
+                            <label for="phone" class="phone-title">Phone</label>
+                            <input type="number" id="phone" name="user-phone" class="phone-container">
                         </li>
                         
                     </ul>
@@ -89,20 +90,20 @@
                             <input type="text" id="name" name="user-name">
                         </li>
                         <li>
-                            <label for="phone"><Address></Address></label>
-                            <input type="number" id="phone" name="user-phone">
+                            <label for="address">Address</label>
+                            <input type="text" id="address" name="user-address">
                         </li>
                         <li>
-                            <label for="phone">City</label>
-                            <input type="number" id="phone" name="user-phone">
+                            <label for="city">City</label>
+                            <input type="text" id="city" name="user-city">
                         </li>
                         <li>
-                            <label for="phone">Country</label>
-                            <input type="number" id="phone" name="user-phone">
+                            <label for="country">Country</label>
+                            <input type="text" id="country" name="user-country">
                         </li>
                         <li>
-                            <label for="phone">Postal code</label>
-                            <input type="number" id="phone" name="user-phone">
+                            <label for="postalCode">Postal code</label>
+                            <input type="text" id="postalCode" name="user-postalCode">
                         </li>
                         <label>
                             <input type="checkbox" name="remember-user" id="#">save this information for next time

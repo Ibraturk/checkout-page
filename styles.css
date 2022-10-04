@@ -84,6 +84,7 @@ html{
     border-radius: 12px;
     margin-bottom: 88px;
 }
+/* Body */
 .body-container{
     margin-left: 12px;
 }
@@ -111,6 +112,8 @@ html{
     text-decoration: line-through;
     
 }
+
+/* Items container */
 .items-container{
     width: 100px;
     height: 30px;
@@ -140,4 +143,32 @@ html{
     background-color: #E0E0E0;
     color: #828282;
     border-radius: 3px;
+}
+/* Total */
+.shipping-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px 0;
+    
+    
+}
+.shipping-body , .shipping-price{
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 20px; 
+    
+}
+.total-body , .total-price{
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 20px; 
+    
+}
+.total-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px 0;
+
 }
