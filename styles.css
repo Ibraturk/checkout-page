@@ -21,7 +21,7 @@ html{
 /* Icons */
 .material-symbols-outlined {
     font-variation-settings:
-    'FILL' 0,
+    'FILL' 100,
     'wght' 400,
     'GRAD' 0,
     'opsz' 48
@@ -53,7 +53,8 @@ html{
 .main-card-container{
     width: 100%;
     height: auto;
-    padding: 20px;
+    max-width: 390px;
+    padding: 13px 24px;
     background-color: #F2F2F2;
     border-radius: 12px;
 }
@@ -171,4 +172,143 @@ html{
     justify-content: space-between;
     padding: 8px 0;
 
+}
+
+
+/* Formulario */
+.form{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+/* Titulos del Form*/
+.form-title{
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.7rem;
+    margin-bottom: 11px;
+}
+.email-list{
+    text-decoration: none;
+}
+/* Label text */
+.list-container{
+    width: 100%;
+    height: auto;
+    max-width: 470px;
+    list-style: none;
+    padding: 5px 0;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.2rem;
+    letter-spacing: 0em;
+}
+.list-body{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* Etiquetas titulos */
+label{
+    margin: 5px 0;
+}
+/* Icono del label */
+.input-icon{
+    position: absolute;
+    top: 28px;
+    left: 11px;
+    font-size: 17px;
+}
+input, select{
+    width: 100%;
+    height: 30px;
+    padding-left: 30px;
+    border: 1px solid #828282;
+    border-radius: 12px;
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    letter-spacing: 0em;
+    color: #4E5150;
+}
+/* Desaparecemos la flecha expand original */
+select{
+    appearance: none;
+}
+/* Expand more que creamos a diseño*/
+.expand-more{
+    position: absolute;
+    top: 29px;
+    left: 117px;
+    font-size: 17px;
+    background: #E0E0E0;
+    border-radius: 4px;
+}
+/* Country flexbox LI */
+/* No funciona la flecha al seleccionarla, solo si clickea el texto */
+.country-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.list-flex{
+    width: 140px;
+
+}
+/* Checkbox */
+.checkbox-label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.checkbox{
+   flex-direction: column; 
+   width: 15px; 
+   border: 1px solid #828282;
+   border-radius: 4px;
+   margin-right: 8px;
+}
+/* Continue button */
+.button-li{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.continue-button{
+    width: 166px;
+    height: 40px;
+    max-width: 140px;
+    color: white;
+    background: #F2994A;
+    border-radius: 12px;
+    border: none;
+}
+/* Footer */
+footer{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+.footer-text-container{
+    width: 100%;
+    max-width: 287px;
+    height: auto;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.7rem;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--text-footer);
+
+}
+.footer-text-container a{
+    color: var(--text-footer);
+    font-weight: bold;
+    text-decoration: none;
 }
