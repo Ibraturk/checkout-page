@@ -8,13 +8,13 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
         <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 460px)">
+        <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 657px)">
         <title>Gallery</title>
     </head>
     <body>
         <main class="page-checkout">
+            <h1 class="checkout-title">Checkout</h1>
             <section class="main-container">
-                <h1 class="checkout-title">Checkout</h1>
                 <section class="main-card-container">
                    <article class="product-container">
                        <div class="image-container">
@@ -78,14 +78,14 @@
                                 mail
                                 </span>
                             <label for="email">E-mail</label>
-                            <input type="email" id="email" name="user-mail" class="email-container" placeholder="Enter your email...">
+                            <input type="email" id="email" name="user-mail" class="email-container" placeholder="Enter your email..." required>
                         </li>
                         <li class="list-body">
                             <span class="material-symbols-outlined input-icon">
                                 call
                                 </span>
                             <label for="phone">Phone</label>
-                            <input type="text" id="phone" name="user-phone" class="phone-container" placeholder="Enter your phone...">
+                            <input type="text" id="phone" name="user-phone" class="phone-container" placeholder="Enter your phone..." required>
                         </li>
                         
                     </ul>
@@ -97,21 +97,21 @@
                                 account_circle
                                 </span>
                             <label for="name">Full name</label>
-                            <input type="text" id="name" name="user-name" placeholder="Enter your name">
+                            <input type="text" id="name" name="user-name" maxlength="30" placeholder="Enter your name" required>
                         </li>
                         <li class="list-body">
                             <span class="material-symbols-outlined input-icon">
                                 home
                                 </span>
                             <label for="address" class="label-body">Address</label>
-                            <input type="text" id="address" name="user-address" placeholder="Enter your ">
+                            <input type="text" id="address" name="user-address" placeholder="Enter your " required>
                         </li>
                         <li class="list-body">
                             <span class="material-symbols-outlined input-icon">
                                 location_city
                                 </span>
                             <label for="city">City</label>
-                            <input type="text" id="city" name="user-city" placeholder="Your address... ">
+                            <input type="text" id="city" name="user-city" placeholder="Your address... " required>
                         </li>
                         <ul class="country-flex">
                             <li class="list-body list-flex">
@@ -122,7 +122,7 @@
                                         expand_more
                                         </span>
                                 <label for="country">Country</label>     
-                                <select id="country" name="country" class="form-control">
+                                <select id="country" name="country" class="form-control" required>
                                     <option value="Select">Your country</option>
                                     <option value="Afghanistan">Afghanistan</option>
                                     <option value="Åland Islands">Åland Islands</option>
@@ -375,11 +375,11 @@
                                     markunread_mailbox
                                     </span>
                                 <label for="postalCode">Postal code</label>
-                                <input type="text" id="postalCode" name="user-postalCode" placeholder="#1445">
+                                <input type="text" id="postalCode" name="user-postalCode" placeholder="#1445" required>
                             </li>
                         </ul>
                         <label class="checkbox-label">
-                            <input type="checkbox" name="remember-user" id="#" class="checkbox">save this information for next time
+                            <input type="checkbox" name="remember-user" id="#" class="checkbox" required>save this information for next time
                         </label>
                     </ul>
                     <li class="button-li">

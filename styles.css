@@ -34,17 +34,19 @@ html{
     width: 100%;
     height: auto;
     display: flex;
+    align-items: center;
     flex-direction: column;
     padding: 0 12px;
 
 }
 .checkout-title{
+    display: flex;
     width: 100%;
     height: auto;
     margin-top: 32px;
     margin-bottom: 21px;
+    padding-left: 12px;
     font-family: var(--font-Montserrat);
-    font-family: Montserrat;
     font-size: 2.4rem;
     font-weight: 600;
     line-height: 2.9rem;
@@ -133,6 +135,10 @@ html{
     color: #828282;
     border-radius: 3px;
 }
+.remove-icon:active{
+    background-color: #cfcece;
+
+}
 .amount{
     font-size: 1.6rem;
     font-weight: 600;
@@ -144,6 +150,9 @@ html{
     background-color: #E0E0E0;
     color: #828282;
     border-radius: 3px;
+}
+.add-icon:active{
+    background-color: #cfcece;
 }
 /* Total */
 .shipping-container{
@@ -179,6 +188,7 @@ html{
 .form{
     width: 100%;
     height: auto;
+    max-width: 390px;
     margin-top: 40px;
 }
 /* Titulos del Form*/
