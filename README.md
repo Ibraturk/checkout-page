@@ -7,11 +7,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://ibra-gragirena.github.io/checkout-page/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://ibra-gragirena.github.io/checkout-page/">
+    <a href="https://devchallenges.io/solutions/dR4RUPi4GKXnoInPjjsK">
       Solution
     </a>
     <span> | </span>
